@@ -33,7 +33,7 @@ public class AdivinaNumero {
 
     private static void iniciarJuego(){
         System.out.println("----TE RETO A ADIVINAR UN NÚMERO----\nIntroduce un número entre 1 y " + RANGO + ":");
-        int numeroSecreto = numeroAleatorio();  // Guardas el número UNA VEZ
+        int numeroSecreto = numeroAleatorio();
         int numeroUsuario;
 
         int intentos = 0;
